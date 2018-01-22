@@ -8,7 +8,7 @@ console.log("app.js is running.");
 var template = React.createElement(
     "h1",
     { id: "template-id" },
-    "This is JSX from app.js."
+    "Testing JSX display."
   );
 var appRoot = document.getElementById("app");
 ReactDOM.render(template, appRoot);
